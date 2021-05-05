@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu {
+    background-color: #1A1A1A;
+    height: 11vh;
+}
+#img-logo-netflix {
+    position: relative;
+    left: 1%;
+    width: 8%;
+    height: 8%;
+    cursor: pointer;
+} 
+#menu-nav, nav {
+    width: 20vw;
+}
+#ul-header {
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    position: relative;
+    width: 33vw; 
+}
+ul a {
+    position: relative;
+    top: -6vh;
+    left: 12vw;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+#menu-direito {
+    position: relative;
+    top: -8.8vh;
+    left: 82vw;
+    display: flex;
+    justify-content: space-between;
+    width: 15vw; 
+}
+#icon-lupa, #icon-sino, #infantil, #icon-seta-baixo {
+    color: white;
+    text-decoration: none;
+}
+#icon-lupa, #icon-sino {
+    font-size: 18px;
+    cursor: pointer;
+}
+#infantil {
+    font-size: 14px;
+}
+#icon-circle {
+    position: relative;
+    left: -22px;
+    top: -5px;
+    color: red;
+    font-size: 12px;
+}
+#img-perfil {
+    position: relative;
+    top: -5px;
+    left: -10px;
+    width: 15%;
+    height: 15%;
+    cursor: pointer;
+}
+#icon-seta-baixo {
+    position: relative;
+    top: 5px;
+    left: -12px;   
+    font-size: 10px;     
+}
+/* Fim header*/
+#sombra {
+    position:absolute;
+    z-index: 1;
+    background-image: linear-gradient( to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0) ); 
+    height: 623px;
+    width: 515px;
+}
+#div-logo-breaking {
+    position: relative;
+/* Terminou AQUI */
+}
+#logo-breaking {
+    z-index: 1;
+    position: absolute;
+    height: 25%;
+    width: 25%;
+}
+#img-filme-central {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+}
