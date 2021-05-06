@@ -32,6 +32,10 @@ ul a {
     color: white;
     font-size: 14px;
 }
+ul a:hover {
+    font-weight: bold;
+
+}
 #menu-direito {
     position: relative;
     top: -8.8vh;
@@ -70,29 +74,124 @@ ul a {
     position: relative;
     top: 5px;
     left: -12px;   
-    font-size: 10px;     
+    font-size: 14px;     
 }
 /* Fim header*/
 #sombra {
     position:absolute;
     z-index: 1;
-    background-image: linear-gradient( to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0) ); 
-    height: 623px;
+    background-image: linear-gradient( to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0) ); 
+    height: 90%;
     width: 515px;
 }
-#div-logo-breaking {
-    position: relative;
-/* Terminou AQUI */
-}
 #logo-breaking {
+    margin-top: 6vh;
+    margin-left: 5vw;
     z-index: 1;
     position: absolute;
-    height: 25%;
-    width: 25%;
+    height: 28%;
+    width: 30%;
 }
 #img-filme-central {
     position: absolute;
-
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
+#descrição {
+    position: absolute;
+    height: 28%;
+    width: 30%;
+    margin-top: 40vh;
+    margin-left: 7vw;
+}
+#ul-descrição {
+    display: flex;
+    justify-content: space-between; 
+    list-style:none;
+    width: 7vw;
+}
+.li-descrição p {
+    position: absolute;
+    z-index: 1;
+    color: rgb(163, 160, 160);
+    font-weight: bold;
+}
+#temporadas {
+    margin-left: -15px;
+}
+#texto-descrição {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    z-index: 2;
+    top: 6vh;
+}
+#estrelando {
+    position: relative;
+    top: 10vh;
+    left: 0;
+    display: flex;
+    justify-content: space-between; 
+    width: 29vw;
+}
+#titulo-estrelando {
+    color: rgb(211, 206, 206);
+    font-weight: bold;
+}
+#p-estrelando {
+    color: white;
+    z-index: 2;
+    font-weight: bold;
+}
+#criação {
+    position: relative;
+    top: 10vh;
+    left: 0;
+    display: flex;
+    justify-content: space-between; 
+    width: 13vw;
+}
+#titulo-criação {
+    color: rgb(211, 206, 206);
+    font-weight: bold;
+}
+#p-criação {
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+}
+#botões {
+    position: relative;
+    top: 12vh;
+    width: 50vw;
+}
+.botão {
+    position: relative;
+    width: 25%;
+    height: 5vh;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.534);
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.botão:hover {
+    background-color: red   ;
+}
+.botão i {
+    margin-right: 5px;
+}
+.box-filme{
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    position: relative;
+    top: 90vh;
+    background-color: #1A1A1A;
+} 
