@@ -6,5 +6,10 @@ No computador ficou desse modo:
 
 
 
+
+
+
+
+
 ![monitor_com_instagram-removebg-preview](https://i.imgur.com/9ScoVpR.png)
 
