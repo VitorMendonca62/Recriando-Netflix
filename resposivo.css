@@ -1,0 +1,32 @@
+@media (max-width: 1125px) {
+    #descrição {
+    margin-top: -300px;
+    }
+    #img-filme-central {
+        height: 515px;
+    }
+}
+@media (max-width: 911px) {
+    #header-right, #lista-header {
+        display: none;
+    }
+    #menu-para-celular {
+        display: inline ;
+    }
+    
+}
+@media (max-width: 700px) {
+    #botões {
+        display: grid;
+        margin-bottom: 5px;
+    }
+    #logo-breaking {
+        width: 300px;
+        margin-top: 80px;
+    }
+}
+@media (max-width: 480px) {
+    #estrelando {
+        margin-bottom: 20px;
+    }
+}
