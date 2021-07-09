@@ -1,4 +1,4 @@
-@media (max-width: 1125px) {
+@media (max-width: 1325px) {
     #descrição {
     margin-top: -300px;
     }
@@ -13,20 +13,40 @@
     #menu-para-celular {
         display: inline ;
     }
+    #header-left {
+        width: 50px;
+    }
+    #descrição {
+        width: 200px;
+    }
     
 }
 @media (max-width: 700px) {
     #botões {
         display: grid;
-        margin-bottom: 5px;
     }
     #logo-breaking {
         width: 300px;
         margin-top: 80px;
     }
+    #iimg-filme-central {
+        margin-bottom: 50px;
+    }
 }
 @media (max-width: 480px) {
     #estrelando {
         margin-bottom: 20px;
+    }
+    #sombra {
+        width: 200px;
+    }
+    #logo-breaking {
+        margin-top: 20px;
+    }
+    #descrição {
+        margin-top: -350px;
+    }
+    .box-filme {
+        margin-top:75px;
     }
 }

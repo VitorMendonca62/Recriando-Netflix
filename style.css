@@ -169,5 +169,6 @@ header {
     margin-right: 6px;
     float: right;
     color: white;
+    display: none;
 }
 
